@@ -87,7 +87,7 @@
     },
     "h5" : {
         "title" : "农博会商城",
-        "domain" : "http://e.nongbohuiec.com/",
+        "domain" : "http://www.nongbohuiec.com/",
         "router" : {
             "base" : "/wap/",
             "mode" : "history"

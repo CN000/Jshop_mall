@@ -1,6 +1,6 @@
 //export const apiBaseUrl = 'https://demo.jihainet.com/';
 //export const apiBaseUrl = 'http://e.bizhentan.com/';
-export const apiBaseUrl   = 'http://e.nongbohuiec.com/';
+export const apiBaseUrl   = 'http://nongbohuiec.com/';
 
 //H5端网站地址,
 export const h5Url      = apiBaseUrl + "wap/";
