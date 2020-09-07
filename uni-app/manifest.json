@@ -1,7 +1,7 @@
 {
-    "name" : "ljyp",
-    "appid" : "__UNI__8AA8302",
-    "description" : "Jshop小程序商城",
+    "name" : "nbr.Agriculture.mall",
+    "appid" : "__UNI__20E3731",
+    "description" : "微商城",
     "versionName" : "2.0",
     "versionCode" : 15,
     "transformPx" : false,
@@ -86,8 +86,8 @@
         }
     },
     "h5" : {
-        "title" : "Jshop小程序商城",
-        "domain" : "https://demo.jihainet.com/",
+        "title" : "农博会商城",
+        "domain" : "http://e.nongbohuiec.com/",
         "router" : {
             "base" : "/wap/",
             "mode" : "history"

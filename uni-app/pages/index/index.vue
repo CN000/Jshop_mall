@@ -17,25 +17,28 @@
 		<jshop :jdata="pageData"></jshop>
 		<jihaiCopyright v-if="copy"></jihaiCopyright>
 		<!-- #ifdef H5 || APP-PLUS-NVUE || APP-PLUS -->
-		<view class="service" @click="showChat()">
-			<image class="icon" src="/static/image/seller-content.png" mode=""></image>
-		</view>
+			<view class="service" @click="showChat()">
+				<image class="icon" src="/static/image/seller-content.png" mode=""></image>
+			</view>
 		<!-- #endif -->
+
 		<!-- #ifdef MP-WEIXIN -->
-		<button class="service" hover-class="none" open-type="contact" bindcontact="showChat" :session-from="kefupara">
-			<image class="icon" src="/static/image/seller-content.png" mode=""></image>
-		</button>
+			<button class="service" hover-class="none" open-type="contact" bindcontact="showChat" :session-from="kefupara">
+				<image class="icon" src="/static/image/seller-content.png" mode=""></image>
+			</button>
 		<!-- #endif -->
+
 		<!-- #ifdef MP-ALIPAY -->
-		<contact-button class="service icon" icon="/static/image/seller-content.png" size="80rpx*80rpx" tnt-inst-id="WKPKUZXG"
-		 scene="SCE00040186" hover-class="none" />
+			<contact-button class="service icon" icon="/static/image/seller-content.png" size="80rpx*80rpx" tnt-inst-id="WKPKUZXG" scene="SCE00040186" hover-class="none" />
 		<!-- #endif -->
+
 		<!-- #ifdef MP-TOUTIAO -->
 		<!-- 头条客服 -->
 		<!-- #endif -->
 		<red-bag v-if="redBagShow" @click="handleGet"></red-bag>
 	</view>
 </template>
+
 <script>
 	import jshop from '@/components/jshop/jshop.vue';
 	import jihaiCopyright from '@/components/jihai-copyright/jihaiCopyright.vue';

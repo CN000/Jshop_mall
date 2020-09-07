@@ -874,6 +874,7 @@ export const doBargain = (data, callback) => post('bargain.dobargain', data, cal
 
 //砍一刀
 export const addBargain = (data, callback) => post('bargain.add', data, callback);
+
 //砍一刀参与活动记录
 export const getUserBargainLog = (data, callback) => post('bargain.getuserbargainlog', data, callback);
 
@@ -885,7 +886,6 @@ export const getShareHb = (data, callback) => post('api.hb.WelfarePro', data, ca
 
 //分享领取优惠券
 export const getShareCoupon = (data, callback) => post('api.coupon.WelfarePro', data, callback);
-
 
 //团购秒杀获取货品信息
 export const getGroupProductInfo = (data, callback) => post('group.getproductinfo', data, callback);

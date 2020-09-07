@@ -1,9 +1,14 @@
-export const apiBaseUrl = 'https://demo.jihainet.com/'
-export const h5Url = apiBaseUrl + "wap/" //H5端网站地址,
+//export const apiBaseUrl = 'https://demo.jihainet.com/';
+//export const apiBaseUrl = 'http://e.bizhentan.com/';
+export const apiBaseUrl   = 'http://e.nongbohuiec.com/';
+
+//H5端网站地址,
+export const h5Url      = apiBaseUrl + "wap/";
 // export const h5Url = "http://localhost:8080/wap/" //H5端网站地址,
 
 // #ifdef H5
-export const baseUrl=process.env.NODE_ENV === 'development'?window.location.origin+'/':apiBaseUrl
+export const baseUrl = process.env.NODE_ENV === 'development'?window.location.origin+'/':apiBaseUrl;
+
 // #endif
 export const paymentType = {
   //支付单类型
